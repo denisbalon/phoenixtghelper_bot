@@ -1,0 +1,762 @@
+[
+  {
+    "label": "batch 001",
+    "photo": "assets/packs/pack_001/IMG_4625.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/kalkarosman",
+      "https://www.instagram.com/muhsinak06",
+      "https://www.instagram.com/qwertyy0015"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_001/v2_clip12_0402-0415-final_m.mp4",
+        "caption": "temizlik benim terapim 🤍 ev toparlanıyor, kafam da ✨"
+      },
+      {
+        "path": "assets/packs/pack_001/v2_clip16_0626-0640-final.mp4",
+        "caption": "ev temizleniyor, ruhum nefes alıyor 🙈🤍"
+      }
+    ]
+  },
+  {
+    "label": "batch 002",
+    "photo": "assets/packs/pack_002/IMG_1790.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/iltsimturkmen29",
+      "https://www.instagram.com/berat_segil242",
+      "https://www.instagram.com/riskiaprianto1113"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_002/v1_clip02_0051-0104-final_m.mp4",
+        "caption": "bazıları için iş, benim için keyif 🧹✨"
+      },
+      {
+        "path": "assets/packs/pack_002/v2_clip01_0006-0014-final_m.mp4",
+        "caption": "temizlik benim için sıradan bir görev değil, küçük bir mutluluk 🤍"
+      }
+    ]
+  },
+  {
+    "label": "batch 003",
+    "photo": "assets/packs/pack_003/IMG_2013.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/mustafaistanbul909",
+      "https://www.instagram.com/a7mad_fat7i_goda",
+      "https://www.instagram.com/yasin_.6660"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_003/v1_clip17_1806-1819-final.mp4",
+        "caption": "kafam karıştığında elime bez alırım 🙈 herşey yerine oturur 🤍"
+      },
+      {
+        "path": "assets/packs/pack_003/v2_clip06_0211-0225-final_m.mp4",
+        "caption": "içim sıkışınca temizlik yapıyorum, geçiyor ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 004",
+    "photo": "assets/packs/pack_004/IMG_4640.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/ilaslan.ali",
+      "https://www.instagram.com/eness_06_38",
+      "https://www.instagram.com/ayhan.ak0415"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_004/v2_clip10_0321-0334-final_m.mp4",
+        "caption": "temiz bir ev, sakin bir zihin 🤍✨"
+      },
+      {
+        "path": "assets/packs/pack_004/v2_clip21_0919-0933-final_m.mp4",
+        "caption": "ev tertemiz olunca içim de açılıyor 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 005",
+    "photo": "assets/packs/pack_005/IMG_6772.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/yusuff34_9",
+      "https://www.instagram.com/muhammedesatyurt",
+      "https://www.instagram.com/sameer83468809"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_005/v1_clip06_0351-0403-final_m.mp4",
+        "caption": "temizlik yapmak meditasyon gibi geliyor bana 🤍"
+      },
+      {
+        "path": "assets/packs/pack_005/v2_clip15_0559-0613-final_m.mp4",
+        "caption": "ben temizliği yaparken kendi kendime iyileşiyorum ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 006",
+    "photo": "assets/packs/pack_006/IMG_7845.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/ldc6165",
+      "https://www.instagram.com/mahmoud.hassan1707",
+      "https://www.instagram.com/jes_yerbi"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_006/v1_clip04_0324-0337-final_m.mp4",
+        "caption": "her sabah biraz toparlanmak ruha iyi geliyor 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_006/v2_clip03_0048-0102-final.mp4",
+        "caption": "günüme temizlikle başlamayı seviyorum, mood yapıyor ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 007",
+    "photo": "assets/packs/pack_007/IMG_4602.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/_masterdadysahip",
+      "https://www.instagram.com/volkann.tc",
+      "https://www.instagram.com/giraffe.5079407"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_007/v1_clip04_0324-0337-final.mp4",
+        "caption": "süpürge elimde, mood yerinde 🧹🤍"
+      },
+      {
+        "path": "assets/packs/pack_007/v2_clip02_0015-0021-final_m.mp4",
+        "caption": "temizlik müziği açtım mı dünya benim 🙈✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 008",
+    "photo": "assets/packs/pack_008/IMG_4749.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/huzur0732",
+      "https://www.instagram.com/umuttt3734k",
+      "https://www.instagram.com/elephant.5435677"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_008/v1_clip08_0818-0831-final.mp4",
+        "caption": "ev temiz olunca insan farklı oluyor 🤍"
+      },
+      {
+        "path": "assets/packs/pack_008/v2_clip20_0851-0858-final.mp4",
+        "caption": "bazen sadece temizlik yapmak yetiyor mutlu olmaya ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 009",
+    "photo": "assets/packs/pack_009/IMG_7639.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/tamerbarboros",
+      "https://www.instagram.com/mohammad142335",
+      "https://www.instagram.com/f.b.f.b.f.b.1907.f.b.f.b.f.b"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_009/v1_clip11_1221-1234-final.mp4",
+        "caption": "benim için temizlik bir hobi 🧹🤍"
+      },
+      {
+        "path": "assets/packs/pack_009/v2_clip04_0123-0130-final.mp4",
+        "caption": "başkası için angarya, benim için keyif 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 010",
+    "photo": "assets/packs/pack_010/IMG_5311.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/zalimm_hinduu_pandit",
+      "https://www.instagram.com/omer_altunerr",
+      "https://www.instagram.com/akilbabali"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_010/v1_clip10_1143-1156-final.mp4",
+        "caption": "temizlik yaparken kafam dağılıyor 🤍"
+      },
+      {
+        "path": "assets/packs/pack_010/v2_clip07_0226-0239-final_m.mp4",
+        "caption": "en güzel \"boş kafa\" anlarım temizlik yaparkenmiş ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 011",
+    "photo": "assets/packs/pack_011/IMG_6583.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/aydin._elmaci",
+      "https://www.instagram.com/sametkcuk1",
+      "https://www.instagram.com/efekaanbakirci"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_011/v1_clip03_0105-0117-final_m.mp4",
+        "caption": "ev temiz, ben mutlu, hayat güzel 🤍✨"
+      },
+      {
+        "path": "assets/packs/pack_011/v2_clip11_0348-0401-final.mp4",
+        "caption": "tertemiz bir ev kadar mutluluk veren az şey var 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 012",
+    "photo": "assets/packs/pack_012/IMG_7504.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/mohcin2579",
+      "https://www.instagram.com/hep1birisi",
+      "https://www.instagram.com/zx_dfgsh"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_012/v1_clip02_0051-0104-final.mp4",
+        "caption": "temizlik benim için bir tür ritüel 🤍"
+      },
+      {
+        "path": "assets/packs/pack_012/v2_clip19_0749-0810-final.mp4",
+        "caption": "her toparlama ufak bir yeniden başlangıç ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 013",
+    "photo": "assets/packs/pack_013/IMG_9691.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/abscdmmm",
+      "https://www.instagram.com/ni.1saaa",
+      "https://www.instagram.com/razy8181"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_013/v1_clip12_1234-1247-final_m.mp4",
+        "caption": "bez, sprey, müzik 🧹🤍 kafam çoktan dağıldı 🙈"
+      },
+      {
+        "path": "assets/packs/pack_013/v2_clip05_0150-0204-final_m.mp4",
+        "caption": "temizlik aletlerini görünce gülümsüyorum, ne diyim ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 014",
+    "photo": "assets/packs/pack_014/IMG_5423.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/jalim_uncle.043",
+      "https://www.instagram.com/zorbey.34v",
+      "https://www.instagram.com/as.il8713"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_014/v2_clip07_0226-0239-final.mp4",
+        "caption": "temiz bir köşe, mutlu bir ruh 🤍"
+      },
+      {
+        "path": "assets/packs/pack_014/v2_clip15_0559-0613-final.mp4",
+        "caption": "evimin her temiz köşesinde biraz daha huzur var 🙈✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 015",
+    "photo": "assets/packs/pack_015/IMG_4327.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/goat.5894341",
+      "https://www.instagram.com/harbimediaa",
+      "https://www.instagram.com/alaattin_karalar26"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_015/v1_clip05_0338-0350-final_m.mp4",
+        "caption": "bana göre temizlik = self care 🤍"
+      },
+      {
+        "path": "assets/packs/pack_015/v2_clip20_0851-0858-final_m.mp4",
+        "caption": "evime baktığımda kendime bakmış oluyorum ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 016",
+    "photo": "assets/packs/pack_016/IMG_5291.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/al.paslan904",
+      "https://www.instagram.com/bilooo222",
+      "https://www.instagram.com/jack1995064"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_016/v1_clip13_1338-1403-final.mp4",
+        "caption": "günün en sevdiğim anı: temizlik bittikten sonraki o sessizlik 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_016/v1_clip15_1546-1558-final.mp4",
+        "caption": "her şey yerli yerinde olunca insan derin nefes alıyor ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 017",
+    "photo": "assets/packs/pack_017/IMG_4325.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/yousef.barbakh",
+      "https://www.instagram.com/9ranen.9",
+      "https://www.instagram.com/nisan_ak87"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_017/v1_clip17_1806-1819-final_m.mp4",
+        "caption": "temizlik benim için zihinsel bir reset 🤍"
+      },
+      {
+        "path": "assets/packs/pack_017/v2_clip18_0715-0735-final_m.mp4",
+        "caption": "kafam gürültülüyse ev de gürültülüdür, ikisini birden topluyorum 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 018",
+    "photo": "assets/packs/pack_018/IMG_2072.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/izmir_3582",
+      "https://www.instagram.com/meraloguz2026",
+      "https://www.instagram.com/ahshndndndjd"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_018/v1_clip09_1013-1026-final.mp4",
+        "caption": "toz aldım, içim açıldı 🤍✨"
+      },
+      {
+        "path": "assets/packs/pack_018/v1_clip15_1546-1558-final_m.mp4",
+        "caption": "bazen çözüm sandığımız büyük şey aslında küçük bir temizlik oluyor 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 019",
+    "photo": "assets/packs/pack_019/IMG_7543.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/m_23_1991",
+      "https://www.instagram.com/zubatti",
+      "https://www.instagram.com/adnaneelkissani"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_019/v1_clip19_1937-1948-final_m.mp4",
+        "caption": "temizliği seven biriyim, evet 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_019/v2_clip02_0015-0021-final.mp4",
+        "caption": "\"neden temizlik yapıyorsun böyle keyifli\" diye soruyorlar, ne diyim ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 020",
+    "photo": "assets/packs/pack_020/IMG_9487.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/kenan79239",
+      "https://www.instagram.com/bhuyanoe",
+      "https://www.instagram.com/alperacarm"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_020/v1_clip03_0105-0117-final.mp4",
+        "caption": "temizlik yapınca güne yeniden başlamış gibi hissediyorum 🤍"
+      },
+      {
+        "path": "assets/packs/pack_020/v1_clip07_0515-0525-final_m.mp4",
+        "caption": "bir oda toparlandığında bir derdim yok oluyor sanki ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 021",
+    "photo": "assets/packs/pack_021/IMG_5975.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/atoraman008",
+      "https://www.instagram.com/jss.fk",
+      "https://www.instagram.com/63mehmet95.can"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_021/v1_clip06_0351-0403-final.mp4",
+        "caption": "temizlik benim için sessiz bir terapi 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_021/v2_clip08_0240-0259-final_m.mp4",
+        "caption": "konuşmadan, düşünmeden, sadece toparlayarak iyileşiyorum ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 022",
+    "photo": "assets/packs/pack_022/IMG_7650.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/momys6008",
+      "https://www.instagram.com/camel.2989333",
+      "https://www.instagram.com/hasancil3786"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_022/v2_clip03_0048-0102-final_m.mp4",
+        "caption": "ev güzel kokunca ruh da güzel kokuyor 🤍"
+      },
+      {
+        "path": "assets/packs/pack_022/v2_clip17_0647-0708-final_m.mp4",
+        "caption": "temiz çamaşır kokusu = en sevdiğim ilaç 🙈✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 023",
+    "photo": "assets/packs/pack_023/IMG_4205.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/mohmehns",
+      "https://www.instagram.com/guldum_gectf",
+      "https://www.instagram.com/hilalbsr0"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_023/v1_clip11_1221-1234-final_m.mp4",
+        "caption": "benim için temizlik hem görev, hem hobi, hem ilaç 🤍"
+      },
+      {
+        "path": "assets/packs/pack_023/v2_clip14_0510-0524-final.mp4",
+        "caption": "üçü bir arada: sorumluluk, keyif, terapi ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 024",
+    "photo": "assets/packs/pack_024/IMG_4391.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/mmahmetdemirmm",
+      "https://www.instagram.com/rahmiaydin436",
+      "https://www.instagram.com/rifandi3629"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_024/v1_clip16_1715-1728-final_m.mp4",
+        "caption": "her gün biraz toparlamak zihne iyi geliyor 🙈"
+      },
+      {
+        "path": "assets/packs/pack_024/v2_clip10_0321-0334-final.mp4",
+        "caption": "günlük rutin = günlük huzur 🤍✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 025",
+    "photo": "assets/packs/pack_025/IMG_4620.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/ibrahim25girgin",
+      "https://www.instagram.com/benheave1",
+      "https://www.instagram.com/aliwaeladam"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_025/v1_clip14_1454-1520-final.mp4",
+        "caption": "temizlikten sonra oturup eve bakmaya bayılıyorum 🤍"
+      },
+      {
+        "path": "assets/packs/pack_025/v1_clip18_1913-1936-final.mp4",
+        "caption": "en güzel ödül: yapılan işin sessiz tatmini ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 026",
+    "photo": "assets/packs/pack_026/IMG_4740.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/meyro__85",
+      "https://www.instagram.com/vbakaooma",
+      "https://www.instagram.com/aymon5642"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_026/v2_clip05_0150-0204-final.mp4",
+        "caption": "ev temizleniyor, eski enerjim de gidiyor 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_026/v2_clip13_0436-0457-final_m.mp4",
+        "caption": "her toparlama biraz daha hafiflemek gibi ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 027",
+    "photo": "assets/packs/pack_027/IMG_3185.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/tolga.ayyldz.10_",
+      "https://www.instagram.com/salimakdeniz535",
+      "https://www.instagram.com/kmlgms1010"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_027/v1_clip08_0818-0831-final_m.mp4",
+        "caption": "temizlik yaparken bambaşka bir insan oluyorum 🤍"
+      },
+      {
+        "path": "assets/packs/pack_027/v2_clip11_0348-0401-final_m.mp4",
+        "caption": "bezi alınca farklı bir mood'a giriyorum, açıklayamam 🙈✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 028",
+    "photo": "assets/packs/pack_028/IMG_5803.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/sexy_old_man_9991",
+      "https://www.instagram.com/u.dural",
+      "https://www.instagram.com/alltunkaynak"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_028/v2_clip09_0306-0320-final_m.mp4",
+        "caption": "temiz ev, açık zihin 🤍"
+      },
+      {
+        "path": "assets/packs/pack_028/v2_clip22_1007-1021-final.mp4",
+        "caption": "evdeki kaos kafadaki kaosla doğrudan bağlantılı bence ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 029",
+    "photo": "assets/packs/pack_029/IMG_2080.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/kami.lericek",
+      "https://www.instagram.com/koray_1905_",
+      "https://www.instagram.com/gok12_1"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_029/v1_clip19_1937-1948-final.mp4",
+        "caption": "temizlik benim için bir \"kendine dön\" anı 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_029/v2_clip09_0306-0320-final.mp4",
+        "caption": "elim çalışırken ruhum dinleniyor ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 030",
+    "photo": "assets/packs/pack_030/IMG_9519.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/erkanmuratn",
+      "https://www.instagram.com/tarzbayannn",
+      "https://www.instagram.com/sjo_0t"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_030/v1_clip07_0515-0525-final.mp4",
+        "caption": "günüm kötü mü? temizlik yap. işe yarıyor 🤍"
+      },
+      {
+        "path": "assets/packs/pack_030/v2_clip19_0749-0810-final_m.mp4",
+        "caption": "hayatın çoğu derdi bir saatlik temizlikle hafifliyor 🙈✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 031",
+    "photo": "assets/packs/pack_031/IMG_4215.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/ahmetdrn233",
+      "https://www.instagram.com/kakipancut35",
+      "https://www.instagram.com/basturk_m"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_031/v1_clip16_1715-1728-final.mp4",
+        "caption": "temizlik bittikten sonraki o ışık var ya 🤍 başka bir his"
+      },
+      {
+        "path": "assets/packs/pack_031/v2_clip01_0006-0014-final.mp4",
+        "caption": "ev parlıyor, ruh parlıyor, gün parlıyor ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 032",
+    "photo": "assets/packs/pack_032/IMG_1765.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/emo472199",
+      "https://www.instagram.com/azrulidgham",
+      "https://www.instagram.com/dmrbey_"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_032/v1_clip14_1454-1520-final_m.mp4",
+        "caption": "benim huzurum temiz bir yatak odasında saklı 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_032/v2_clip18_0715-0735-final.mp4",
+        "caption": "yatağı toparlamadan güne başlamak gibisi yok ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 033",
+    "photo": "assets/packs/pack_033/IMG_6076.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/yaser72662",
+      "https://www.instagram.com/orhan.vardar1980",
+      "https://www.instagram.com/wy19.87"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_033/v1_clip13_1338-1403-final_m.mp4",
+        "caption": "temizlik yaparken hiçbir şey düşünmüyorum 🤍"
+      },
+      {
+        "path": "assets/packs/pack_033/v2_clip17_0647-0708-final.mp4",
+        "caption": "en sevdiğim \"zihinsiz\" an bu olmalı 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 034",
+    "photo": "assets/packs/pack_034/IMG_5399.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/serkanzz28280303",
+      "https://www.instagram.com/blackk.manss",
+      "https://www.instagram.com/benanzlene"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_034/v1_clip10_1143-1156-final_m.mp4",
+        "caption": "ev temiz olunca bambaşka bir kadın oluyorum ✨"
+      },
+      {
+        "path": "assets/packs/pack_034/v1_clip18_1913-1936-final_m.mp4",
+        "caption": "kendime baktığım yerlerden biri: temiz bir ev 🤍"
+      }
+    ]
+  },
+  {
+    "label": "batch 035",
+    "photo": "assets/packs/pack_035/IMG_7593.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/ferhatdogan945",
+      "https://www.instagram.com/devs.ingh1651",
+      "https://www.instagram.com/misbh_zahid"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_035/v1_clip01_0013-0026-final.mp4",
+        "caption": "bezi elime alınca otomatik gülümsüyorum 🙈🤍"
+      },
+      {
+        "path": "assets/packs/pack_035/v2_clip04_0123-0130-final_m.mp4",
+        "caption": "temizlik ilacım, hobim, sığınağım ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 036",
+    "photo": "assets/packs/pack_036/IMG_4273.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/4292hakan",
+      "https://www.instagram.com/the.darkechoes",
+      "https://www.instagram.com/bear.7754183"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_036/v1_clip12_1234-1247-final.mp4",
+        "caption": "her köşeye dokunmak beni iyileştiriyor 🤍"
+      },
+      {
+        "path": "assets/packs/pack_036/v2_clip13_0436-0457-final.mp4",
+        "caption": "ev temizliği, kendi kendime sarılmak gibi 🙈✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 037",
+    "photo": "assets/packs/pack_037/IMG_4641.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/tengheave",
+      "https://www.instagram.com/hungstar255",
+      "https://www.instagram.com/msndb_dbs"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_037/v2_clip21_0919-0933-final.mp4",
+        "caption": "temizlik = sessiz bir sevgi gösterisi (eve, kendime) 🤍"
+      },
+      {
+        "path": "assets/packs/pack_037/v2_clip22_1007-1021-final_m.mp4",
+        "caption": "evime baktığımı hissediyorum, ev de bana bakıyor sanki ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 038",
+    "photo": "assets/packs/pack_038/IMG_7427.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/tivgen61",
+      "https://www.instagram.com/egemenlikmilletindir01",
+      "https://www.instagram.com/ferozkhan143474"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_038/v2_clip06_0211-0225-final.mp4",
+        "caption": "benim mutluluk reçetem: müzik + bez + biraz da dans 🙈🧹🤍"
+      },
+      {
+        "path": "assets/packs/pack_038/v2_clip12_0402-0415-final.mp4",
+        "caption": "temizlik yaparken dans etmek bedavaya terapi ✨"
+      }
+    ]
+  },
+  {
+    "label": "batch 039",
+    "photo": "assets/packs/pack_039/IMG_3175.JPG",
+    "ig_urls": [
+      "https://www.instagram.com/erdalcan1907",
+      "https://www.instagram.com/dusundugumharita",
+      "https://www.instagram.com/ismailgneyy"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_039/v1_clip05_0338-0350-final.mp4",
+        "caption": "ev tertemiz, ruh tertemiz, gün tertemiz 🤍✨"
+      },
+      {
+        "path": "assets/packs/pack_039/v2_clip08_0240-0259-final.mp4",
+        "caption": "üçü bir arada olunca insan başka bir şey istemiyor 🙈"
+      }
+    ]
+  },
+  {
+    "label": "batch 040",
+    "photo": "assets/packs/pack_040/IMG_9638.jpg",
+    "ig_urls": [
+      "https://www.instagram.com/feetlove990",
+      "https://www.instagram.com/chameleon.77658857",
+      "https://www.instagram.com/bahjat_al_awayesha_"
+    ],
+    "videos": [
+      {
+        "path": "assets/packs/pack_040/v1_clip09_1013-1026-final_m.mp4",
+        "caption": "temizliği sevmek öğrenilebilir bir şey 🤍"
+      },
+      {
+        "path": "assets/packs/pack_040/v2_clip16_0626-0640-final_m.mp4",
+        "caption": "ben sevdim, hayatım değişti, ne diyim 🙈✨"
+      }
+    ]
+  }
+]

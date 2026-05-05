@@ -1,0 +1,20 @@
+config.php
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.claude/settings.local.json
+
+# Per-machine secrets — never committed.
+.ftp_credentials
+.claude/memory/
+
+# Pack media — uploaded directly to FTP, too large for git.
+assets/packs/
+
+# Runtime-edited instruction text + edit-armed flag (host-only).
+instructions.html
+pending_instructions.flag
+
+# Logs
+logs/

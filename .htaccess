@@ -1,0 +1,8 @@
+<FilesMatch "\.(html|flag)$">
+    Require all denied
+</FilesMatch>
+
+# Deny direct access to internals
+<FilesMatch "^(config|set_webhook)\.php$">
+    Require all denied
+</FilesMatch>
