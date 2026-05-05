@@ -10,6 +10,7 @@
 # else from env.
 
 set -u
+shopt -s nullglob   # unmatched globs expand to nothing instead of literal — required for the empty-SRC guard below.
 
 SRC="${1:-/mnt/c/Users/denny/Downloads/Lera/Test}"
 
@@ -48,6 +49,12 @@ for d in "${SRC}"/pack_*/; do
         fi
     done
 done
+
+if [ "$total" -eq 0 ]; then
+    echo "No pack_*/ directories with files found under: $SRC" >&2
+    echo "Did you point at the right SRC root? Aborting." >&2
+    exit 1
+fi
 
 echo "Done: ${ok}/${total} OK, ${fail} FAIL"
 [ "$fail" -eq 0 ]

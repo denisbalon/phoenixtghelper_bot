@@ -106,6 +106,13 @@ function logError(string $message): void {
     $logFile = LOG_FILE;
     $maxSize = 1024 * 1024; // 1MB
 
+    // Provision the log directory on first use. deploy.sh excludes logs/ and a
+    // fresh host doesn't have it, so without this every error vanishes silently.
+    $logDir = dirname($logFile);
+    if (!is_dir($logDir)) {
+        @mkdir($logDir, 0755, true);
+    }
+
     // Rotate if too large
     if (@filesize($logFile) > $maxSize) {
         $rotated = $logFile . '.' . date('Y-m-d-His');

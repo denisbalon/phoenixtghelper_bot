@@ -34,7 +34,19 @@ function getInstructionsText(): string {
 }
 
 function saveInstructionsText(string $text): bool {
-    return file_put_contents(instructionsFilePath(), $text) !== false;
+    // Atomic replace: write to temp file under exclusive lock, then rename.
+    // POSIX rename() within the same filesystem is atomic, so concurrent
+    // readers always see either the old or new content, never a partial write.
+    $path = instructionsFilePath();
+    $tmp  = $path . '.tmp.' . getmypid() . '.' . bin2hex(random_bytes(4));
+    if (file_put_contents($tmp, $text, LOCK_EX) === false) {
+        return false;
+    }
+    if (!rename($tmp, $path)) {
+        @unlink($tmp);
+        return false;
+    }
+    return true;
 }
 
 function armInstructionsEdit(): void {
@@ -51,14 +63,20 @@ function isInstructionsEditPending(): bool {
 
 function handleAdminInstructionsCmd(int $chatId, string $body): void {
     if ($body !== '') {
+        // Validate by sending the preview FIRST; only persist if Telegram
+        // accepts the HTML. Otherwise a malformed edit would poison every
+        // future /N batch until someone manually repairs the file.
+        $preview = sendMessage($chatId, $body, null, 'HTML', true);
+        if ($preview === null) {
+            sendMessage($chatId, '❌ Telegram rejected that HTML — instructions NOT updated. Allowed tags: &lt;b&gt;, &lt;i&gt;, &lt;a href&gt;, etc. See logs/error.log for details.', null, 'HTML', true);
+            return;
+        }
         if (!saveInstructionsText($body)) {
             sendMessage($chatId, 'Failed to write instructions.html on host.');
             return;
         }
         clearInstructionsEdit();
-        sendMessage($chatId, '✅ Instructions updated. Preview:');
-        sleep(1);
-        sendMessage($chatId, $body, null, 'HTML', true);
+        sendMessage($chatId, '✅ Instructions updated (preview above).');
         return;
     }
     armInstructionsEdit();
@@ -70,14 +88,20 @@ function handleAdminInstructionsCmd(int $chatId, string $body): void {
 }
 
 function handleAdminInstructionsCapture(int $chatId, string $text): void {
+    // Same validate-first pattern as the inline /instructions <body> path.
+    // Pending-edit flag stays armed on preview failure so admin can retry
+    // without re-issuing /instructions.
+    $preview = sendMessage($chatId, $text, null, 'HTML', true);
+    if ($preview === null) {
+        sendMessage($chatId, '❌ Telegram rejected that HTML — instructions NOT updated. Edit still armed; try again or /cancel.', null, 'HTML', true);
+        return;
+    }
     if (!saveInstructionsText($text)) {
         sendMessage($chatId, 'Failed to write instructions.html on host.');
         return;
     }
     clearInstructionsEdit();
-    sendMessage($chatId, '✅ Instructions updated. Preview:');
-    sleep(1);
-    sendMessage($chatId, $text, null, 'HTML', true);
+    sendMessage($chatId, '✅ Instructions updated (preview above).');
 }
 
 function loadPacksManifest(int $chatId): ?array {
@@ -127,7 +151,18 @@ function handleAdminBatch(int $chatId, int $idx): void {
     $base = __DIR__ . '/..';
     $delay = 3; // per-send pacing — Telegram per-chat bursts > ~1/s trip 429.
 
-    sendMessage($chatId, $pack['label'] ?? '');
+    // Label fallback ensures we never sendMessage('') — Telegram rejects empty
+    // text with 400. Use the same template as handleAdminIndex.
+    $labelText = $pack['label'] ?? sprintf('batch %03d', $idx);
+
+    // Abort the batch if the FIRST send fails hard. telegramAPI() retries 429s
+    // internally, so a null return means a non-retryable failure (bad chat,
+    // bot blocked, network gone) — every later send to the same chat will
+    // also fail, so a half-delivered batch is worse than failing fast.
+    if (sendMessage($chatId, $labelText) === null) {
+        logError("handleAdminBatch idx={$idx}: label send failed, aborting batch");
+        return;
+    }
     sleep($delay);
 
     sendMessage($chatId, getInstructionsText(), null, 'HTML', true);

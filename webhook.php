@@ -53,19 +53,22 @@ try {
         exit;
     }
 
+    // Pending instructions edit: only /cancel or a successful capture clears
+    // the flag. Other slash commands fall through to their handlers with the
+    // edit still armed, so an admin who runs /start mid-edit doesn't lose state.
     if ($text !== null && isInstructionsEditPending()) {
-        if (strpos($text, '/') === 0) {
+        if (preg_match('~^/cancel(?:@\w+)?\s*$~i', $text)) {
             clearInstructionsEdit();
-            if (preg_match('~^/cancel(?:@\w+)?\s*$~i', $text)) {
-                sendMessage($chatId, 'Instructions edit cancelled.');
-                http_response_code(200);
-                exit;
-            }
-        } else {
+            sendMessage($chatId, 'Instructions edit cancelled.');
+            http_response_code(200);
+            exit;
+        }
+        if (strpos($text, '/') !== 0) {
             handleAdminInstructionsCapture($chatId, $text);
             http_response_code(200);
             exit;
         }
+        // Other slash command while armed: fall through, leave flag armed.
     }
 
     if ($text !== null && strpos($text, '/start') === 0) {
