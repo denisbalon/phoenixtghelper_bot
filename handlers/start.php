@@ -155,43 +155,54 @@ function handleAdminBatch(int $chatId, int $idx): void {
     // text with 400. Use the same template as handleAdminIndex.
     $labelText = $pack['label'] ?? sprintf('batch %03d', $idx);
 
-    // Abort the batch if the FIRST send fails hard. telegramAPI() retries 429s
-    // internally, so a null return means a non-retryable failure (bad chat,
-    // bot blocked, network gone) — every later send to the same chat will
-    // also fail, so a half-delivered batch is worse than failing fast.
-    if (sendMessage($chatId, $labelText) === null) {
-        logError("handleAdminBatch idx={$idx}: label send failed, aborting batch");
+    // Every required send is a checkpoint. telegramAPI() retries 429s
+    // internally, so a null return signals a non-retryable failure: chat-wide
+    // (bot blocked, invalid chat) or message-specific (parse error in
+    // instructions HTML, oversized/corrupt media, bad caption). In all cases
+    // continuing produces a partial batch with no admin-visible boundary, so
+    // we abort and log which step failed.
+    $abort = function (string $step) use ($idx): void {
+        logError("handleAdminBatch idx={$idx}: {$step} send failed, aborting batch");
+    };
+
+    if (sendMessage($chatId, $labelText) === null) { $abort('label'); return; }
+    sleep($delay);
+
+    if (sendMessage($chatId, getInstructionsText(), null, 'HTML', true) === null) {
+        $abort('instructions');
         return;
     }
     sleep($delay);
 
-    sendMessage($chatId, getInstructionsText(), null, 'HTML', true);
-    sleep($delay);
-
     $photoPath = $base . '/' . ($pack['photo'] ?? '');
     if (is_file($photoPath)) {
-        sendPhoto($chatId, $photoPath);
+        $r = sendPhoto($chatId, $photoPath);
     } else {
-        logError("handleAdminBatch: photo missing {$photoPath}");
-        sendMessage($chatId, '[photo missing: ' . ($pack['photo'] ?? '?') . ']');
+        logError("handleAdminBatch idx={$idx}: photo missing {$photoPath}");
+        $r = sendMessage($chatId, '[photo missing: ' . ($pack['photo'] ?? '?') . ']');
     }
+    if ($r === null) { $abort('photo'); return; }
     sleep($delay);
 
     $igs = $pack['ig_urls'] ?? [];
     if ($igs) {
-        sendMessage($chatId, implode("\n", $igs), null, 'HTML', true);
+        if (sendMessage($chatId, implode("\n", $igs), null, 'HTML', true) === null) {
+            $abort('ig_urls');
+            return;
+        }
         sleep($delay);
     }
 
-    foreach (($pack['videos'] ?? []) as $v) {
+    foreach (($pack['videos'] ?? []) as $vi => $v) {
         $vpath = $base . '/' . ($v['path'] ?? '');
         $cap = $v['caption'] ?? null;
         if (is_file($vpath)) {
-            sendVideo($chatId, $vpath, $cap);
+            $r = sendVideo($chatId, $vpath, $cap);
         } else {
-            logError("handleAdminBatch: video missing {$vpath}");
-            sendMessage($chatId, '[video missing: ' . ($v['path'] ?? '?') . ']');
+            logError("handleAdminBatch idx={$idx}: video {$vi} missing {$vpath}");
+            $r = sendMessage($chatId, '[video missing: ' . ($v['path'] ?? '?') . ']');
         }
+        if ($r === null) { $abort("video[{$vi}]"); return; }
         sleep($delay);
     }
 }
